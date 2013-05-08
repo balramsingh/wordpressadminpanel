@@ -7,7 +7,7 @@ Author: Balram Singh
 Version: 1.0
 Author URI: http://eshopbox.com
 */
-
+git tag -a
 // TO enque custom style sheet for admin Panel
 function my_admin_theme_style() {
     wp_enqueue_style('my-admin-theme', plugins_url('wp-admin.css', __FILE__));
